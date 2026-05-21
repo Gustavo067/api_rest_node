@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "es2022",
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "outDir": "./dist",
+    "sourceMap": true,
+    // Remova ou comente a linha abaixo:
+    // "verbatimModuleSyntax": true, 
+    "noUncheckedIndexedAccess": true
+  },
+  "include": ["src/**/*", "knexfile.ts"]
+}
