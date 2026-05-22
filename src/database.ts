@@ -1,6 +1,10 @@
 import 'dotenv/config'
-import { knex as setupKnex, Knex} from 'knex';
 import { env } from './env/index.js';
+
+import knexLib from 'knex';
+import type { Knex  } from 'knex';
+
+const setupKnex = knexLib;
 
 
 export const config: Knex.Config = {
